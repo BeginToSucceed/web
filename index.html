@@ -1,0 +1,68 @@
+<!doctype html> 
+<html> 
+<head>
+<title>Welcome to our place</title>
+<meta charset="utf-8">
+<style>
+    a {
+        color:black;
+        text-decoration: none;
+    }
+    ul{
+        font-size: 20px;
+       
+        
+    }
+    h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+        font-size: 35px ;
+    }
+    h1{
+        border:5px solid black;
+        margin-top: 5px;
+        margin:5px
+    }
+    #bd{
+        border:5px solid black;
+        margin:5px;
+    }
+    h3{
+        color: white; font-style: italic;
+    }
+    #bt{
+        border:2px solid red;
+    }
+    .saw{
+        color: blue;
+    }
+</style>
+</head>
+
+<body id="bd">
+<h1><a href="index.html"> 우리의 공간 </a></h1>
+<input id="bt" type="button" value="night" onclick="
+if(document.querySelector('#bt').value==='night'){
+    document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.Color='white';
+    document.querySelector('#bt').value='day';}
+else{
+    document.querySelector('body').style.backgroundColor=('white');
+    document.querySelector('body').style.Color=('black')
+    document.querySelector('#bt').value='night';}
+"> <-click here!!
+
+<ul>
+    <li><a href="1.html" class="saw"> 김지원 </a></li>
+    <li><a href="2.html" class="saw"> 김인성</a></li>
+</ul>
+<h2>우리 둘에 대해 알아보자!!</h2>
+<h3><strong>I LOVE YOU 정말로</strong></h3>
+</body>
+</html>
